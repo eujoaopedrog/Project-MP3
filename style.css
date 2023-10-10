@@ -1,4 +1,30 @@
-body, html{
+body  {
+    background-image: url('img/thula-na-ddJ9PNYjric-unsplash.jpg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:1500px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:1500px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+html{
     margin: 0;
     padding: 0;
     display: flex;
@@ -6,8 +32,7 @@ body, html{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #333;
-    color: #ddd;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -43,7 +68,7 @@ h2{
 progress {
     height: 6px;
     width: 0%;
-    background-color: #333;
+    background-color: black;
 }
 
 
