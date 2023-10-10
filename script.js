@@ -1,7 +1,7 @@
 let musicas = [
-    { titulo: 'Casinha (Ao Vivo)', artista: 'Armandinho', src: 'music/Armandinho - Casinha (Ao Vivo).mp3', img: 'img/Praia.jpg' },
-    { titulo: 'Colgate', artista: 'Brandão085', src: 'music/Brandão085 - Colgate.mp3', img: 'img/HipHop.jpg' },
-    { titulo: 'Fendi', artista: 'Brandão085', src: 'music/Brandão085 - Fendi.mp3', img: 'img/HipHop.jpg' }
+    { titulo: 'Casinha (Ao Vivo)', artista: 'Armandinho', src: 'music/Armandinho - Casinha (Ao Vivo).mp3', img: 'img/armandinho.jpg' },
+    { titulo: 'Seu Astral', artista: 'Jorge e Matheus', src: 'music/Jorge, Mateus - Seu Astral_fANtA8K3ugM.mp3', img: 'img/jorge e matheus.jpg' },
+    { titulo: 'Fly Me To The Moon', artista: 'Frank Sinatra', src: 'music/Fly Me To The Moon (2008 Remastered)_ZEcqHA7dbwM.mp3', img: 'img/franksinatra.webp' }
 
 ];
 
